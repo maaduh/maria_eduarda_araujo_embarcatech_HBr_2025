@@ -17,6 +17,7 @@ int main()
     int countB = 0;
     int reg = 9;
     int g = 0;
+    int w = 0;
     bool anteriorA = gpio_get(BTNA_PIN);
     bool anteriorB = gpio_get(BTNB_PIN);
 
